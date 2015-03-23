@@ -42,6 +42,6 @@ echo -e "\e[31m=====INSTALLING UNZIP=====\e[0m"
 sudo apt-get install -y unzip
 
 echo -e "\e[31m=====INSTALLING WORDPRESS=====\e[0m"
-mysqladmin -uroot -pvagrant < /vagrant/wordpress/vagrant/vme_wp_db.sql
+mysqladmin -uroot -pvagrant < /vagrant/wordpress/vagrant/database/vme_wp_db.sql
 
 echo -e "\e[31m=====VM DEPLOYED=====\e[0m"
